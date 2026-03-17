@@ -18,7 +18,7 @@ if (window.parent === window) {
         callback: function (t) {
           return t.popup({
             title: 'Send to ViaSocket',
-            url: '/popup.html'
+            url: 'popup.html'
           });
         }
       }]
